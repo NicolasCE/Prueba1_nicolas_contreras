@@ -1,0 +1,24 @@
+body{
+
+}
+
+/* parte superior */
+
+.Lo{
+    display: flex;
+    justify-content: space-between;
+} 
+  
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.menu{
+    background: url(../img/computador1.jpg);
+}
