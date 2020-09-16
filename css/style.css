@@ -140,6 +140,20 @@ border: 2px solid black;
     margin-left: 20px;
 }
 
+@media screen and (max-width:800px ) {
+    .seccion3{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top:100px;
+    }
+    .campus{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding:30px ;
+    }
+}
+
 
 
 
