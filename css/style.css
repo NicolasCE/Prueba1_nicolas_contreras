@@ -18,13 +18,13 @@ justify-content: space-between;
 padding: 10px;
 border: 2px solid black;
 }
-
 .menu ul li{
     list-style-type: none;
 }
 .menu ul li a{
     text-decoration: none;
     margin-left: 20px;
+    color: black;
 }
 
 /* seccion 1*/
@@ -137,7 +137,7 @@ border: 2px solid black;
 }
 .menu2 ul li a{
     text-decoration: none;
-    margin-left: 18px;
+    margin-left: 20px;
 }
 
 
