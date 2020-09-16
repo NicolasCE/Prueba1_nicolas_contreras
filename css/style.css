@@ -1,17 +1,24 @@
-body{
-
+:root{
 }
+body{
+    padding: 25p;
+    background: darkkhaki;
+}
+/* cabezera */
 
-/* parte superior */
-
-.Lo{
-    display: flex;
-    justify-content: space-between;
+.LO{
+display: flex;
+justify-content: space-between;
 } 
-  
+
 .menu ul{
     display: flex;
 }
+.boxnegra{
+padding: 10px;
+border: 2px solid black;
+}
+
 .menu ul li{
     list-style-type: none;
 }
@@ -19,6 +26,121 @@ body{
     text-decoration: none;
     margin-left: 20px;
 }
-.menu{
-    background: url(../img/computador1.jpg);
+
+/* seccion 1*/
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: url(../img/computadora11.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
 }
+/* seccion 2*/
+.seccion2{
+    
+}
+.seccion2 h2{
+    text-align: center;
+}
+.campus{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding:30px ;
+}
+.camp{
+    box-shadow: 3px 3px 10px gray;
+    display: flex;
+    flex-direction: column;
+    
+}
+.camp img{
+    height: 100%;
+    width: 100%;   
+}
+.camp p{
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+/* seccion3 */
+.seccion3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:100px;
+}
+
+.seccion3 img{
+    height: 100%;
+    width: 100%; 
+}
+
+.seccion3 p{
+    text-align: center;
+    padding: 200px;
+    font-size: 30px;
+    color: black;
+}
+.seccion3 h1{
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+}
+
+/*seccion4*/
+
+.seccion4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion4 button{
+    padding: 50px;
+    width: 50%;
+}
+.seccion4 input{
+    padding: 50px;
+    width: 50%;
+}
+
+/*Seccion5*/
+
+.seccion5{
+    padding:100px 50px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.redes ul li a img{
+    height: 30px;
+}
+.redes ul{
+    display: flex;
+}
+.redes ul li{
+    list-style-type: none;
+}
+.redes ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.menu2 ul{
+    display: flex;
+    font-size:px;
+    color: grey;
+}
+.menu2 ul li{
+    list-style-type: none;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+
+
+
+
